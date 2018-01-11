@@ -12,9 +12,9 @@ describe('arrays', () => {
 
   describe('chocolateBars', () => {
     it('is an array containing "snickers", "hundred grand", "kitkat", and "skittles"', () => {
-      expect(chocolateBars).to.eql['snickers', 'hundred grand', 'kitkat', 'skittles']
-    })
-  })
+      expect(chocolateBars).to.eql(['snickers', 'hundred grand', 'kitkat','skittles'])
+    });
+  });
 
   describe('addElementToBeginningOfArray(array, element)', () => {
     it('adds an element to the beginning of an array', () => {
