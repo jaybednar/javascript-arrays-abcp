@@ -12,7 +12,7 @@ var chocolateBars = [
     return array.unshift(element);
   }
   const array = [1]
-  addElementToBeginningOfArray([1], 'foo');
+  addElementToBeginningOfArray(array, 'foo');
   
   function addElementToEndOfArray(array, element) {
     return [...array, element];
